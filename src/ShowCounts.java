@@ -5,7 +5,7 @@ public class ShowCounts {
 
         System.out.println("Pętla while:");
         double count = 0;
-        while (count <= 3) {
+        while (count < 3.1) {
             System.out.print(count);
             System.out.print(", ");
             count = count + 0.1;
@@ -18,6 +18,6 @@ public class ShowCounts {
             System.out.print(", ");
             count = count + 0.1;
         }
-        while(count<=3);
+        while(count<3.1);
     }
 }
